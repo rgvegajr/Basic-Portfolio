@@ -1,0 +1,16 @@
+nav {
+    background-color: lightgreen; 
+}
+
+#photo {
+    float: left;
+}
+
+#aboutMe {
+    float: left;
+}
+
+footer {
+    clear: both;
+    overflow: auto;
+}
