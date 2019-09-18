@@ -8,22 +8,16 @@
     background: lightblue;
 }
 
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    border-bottom: 2px solid lightgray;
-}
-
-li {
-    float: left;
-    text-align: center;
-    padding: 14px 16px;
-}
-
-li a {
+nav {
+    background: white;
+    padding: 30px;
+    border-bottom: 4px solid lightgray;
     text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+    padding: 14px 16px;
 }
 
 h1, h2, h3 {
@@ -33,13 +27,18 @@ h1, h2, h3 {
 }
 
 
-#banner {
+#name {
+    color: white;
+    font-size: 24px;
     background: #4AAAA5;
+    padding: 30px;
+    margin-left: 200px;
 }
 
-#top  {
+#top {
     color: white;
 }
+
 #header {
     color: white;
     border-bottom: 2px solid lightgray;
@@ -58,12 +57,11 @@ section {
     margin-right: 10%;
     width: 960px;
     background-color: #ffffff;
-/*    border-color: #dddddd;*/
+    /*    border-color: #dddddd;*/
     border-color: black;
 }
 
-div  {
-
+div {
 }
 
 #photo {

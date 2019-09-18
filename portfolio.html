@@ -5,18 +5,39 @@
     <meta charset="utf-8">
     <title>Portfolio</title>
     <link rel="stylesheet" href="assets/css/style.css">
-    <title></title>
+    <style>
+        div.gallery {
+            margin: 5px;
+            border: 1px solid #ccc;
+            float: left;
+            width: 180px;
+        }
+
+            div.gallery:hover {
+                border: 1px solid #777;
+            }
+
+            div.gallery img {
+                width: 100%;
+                height: auto;
+            }
+
+        div.desc {
+            padding: 15px;
+            text-align: center;
+        }
+    </style>
+
 </head>
 
 <body>
-    <header>
-        <ul>
-            <li id="banner"><h1 id="top">Ramon Vega</h1></li>
-            <li><a href="index.html">About</a></li>
-            <li><a href="portfolio.html">Portfolio</a></li>
-            <li><a href="contact.html">Contact</a></li>
-        </ul>
-    </header>
+    <nav>
+        <a id="name">Ramon Vega</a>
+        <a href="index.html">About</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+
     <section>
         <h2>Portfolio</h2>
         <br>
@@ -24,6 +45,40 @@
 
         </div>
     </section>
+    <div class="gallery">
+        <a target="_blank" href="assets/images/jazz.jpg">
+            <img src="assets/images/jazz.jpg" alt="jazz" width="600" height="400">
+        </a>
+        <div class="desc">Jazz Playing</div>
+    </div>
+
+    <div class="gallery">
+        <a target="_blank" href="assets/images/doge.jpg">
+            <img src="assets/images/doge.jpg" alt="dog" width="600" height="400">
+        </a>
+        <div class="desc">Dogs</div>
+    </div>
+
+    <div class="gallery">
+        <a target="_blank" href="assets/images/f15.png">
+            <img src="assets/images/f15.png" alt="F15" width="600" height="400">
+        </a>
+        <div class="desc">Flying Pictures</div>
+    </div>
+
+    <div class="gallery">
+        <a target="_blank" href="assets/images/tree.png">
+            <img src="assets/images/tree.png" alt="Tree" width="600" height="400">
+        </a>
+        <div class="desc">Agriculture</div>
+    </div>
+    <div class="gallery">
+        <a target="_blank" href="assets/images/maps.png">
+            <img src="assets/images/maps.png" alt="maps" width="600" height="400">
+        </a>
+        <div class="desc">Maps and GIS</div>
+    </div>
+
     <footer>
         <p id="footer">Copyright</p>
     </footer>
