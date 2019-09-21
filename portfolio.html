@@ -5,32 +5,11 @@
     <meta charset="utf-8">
     <title>Portfolio</title>
     <link rel="stylesheet" href="assets/css/style.css">
-    <style>
-        div.gallery {
-            margin: 5px;
-            border: 1px solid #ccc;
-            float: left;
-            width: 180px;
-        }
-
-            div.gallery:hover {
-                border: 1px solid #777;
-            }
-
-            div.gallery img {
-                width: 100%;
-                height: auto;
-            }
-
-        div.desc {
-            padding: 15px;
-            text-align: center;
-        }
-    </style>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
 </head>
-
 <body>
+<!-- Header/fixed nav bar (move to separate header file)-->
     <header>
         <nav>
             <ul>
@@ -41,51 +20,79 @@
             </ul>
         </nav>
     </header>
+<!-- main content for portfolio page -->
     <section class="sectionTop">
         <h2>Portfolio</h2>
-     </section>
-    <section id="portfolio">
-        <div class="gallery">
-            <a target="_blank" href="assets/images/jazz.jpg">
-                <!--<img src="assets/images/jazz.jpg" alt="jazz" width="600" height="400">-->
-                <img src="assets/images/jazz.jpg" alt="jazz">
-            </a>
-            <div class="desc">Jazz Playing</div>
-        </div>
-
-        <div class="gallery">
-            <a target="_blank" href="assets/images/doge.jpg">
-                <img src="assets/images/doge.jpg" alt="dog">
-            </a>
-            <div class="desc">Dogs</div>
-        </div>
-
-        <div class="gallery">
-            <a target="_blank" href="assets/images/f15.png">
-                <img src="assets/images/f15.png" alt="F15" >
-            </a>
-            <div class="desc">Flying Pictures</div>
-        </div>
-
-        <div class="gallery">
-            <a target="_blank" href="assets/images/tree.png">
-                <img src="assets/images/tree.png" alt="Tree">
-            </a>
-            <div class="desc">Agriculture</div>
-        </div>
-        <div class="gallery">
-            <a target="_blank" href="assets/images/maps.png">
-                <img src="assets/images/maps.png" alt="maps">
-            </a>
-            <div class="desc">Maps and GIS</div>
-        </div>
+        <hr>
     </section>
+    <section id="portfolio">
+        <div class="row">
+            <div class="column">
+                <div class="content">
+                    <a target="_blank" href="assets/images/jazz.jpg">
+                    <!--<img src="assets/images/jazz.jpg" alt="jazz" width="600" height="400">-->
+                    <div class="fill">
+                        <img src="assets/images/jazz.jpg" alt="jazz">
+                    </div>
+                    </a>
+                    <div class="desc">Jazz Playing</div>
+                </div>
+            </div>
 
+            <!-- <div class="fill">
+                    <img src="https://lorempizza.com/320/240" alt="" />
+                </div> -->
+
+
+            <div class="column">
+                <div class="content">
+                    <a target="_blank" href="assets/images/doge.jpg">
+                    <div class="fill">
+                        <img src="assets/images/doge.jpg" alt="dog">
+                    </div>
+                    </a>
+                    <div class="desc">Dogs</div>
+                </div>
+            </div>
+
+            <div class="column">
+                <div class="content">
+                    <a target="_blank" href="assets/images/f15.png">
+                    <div class="fill">
+                        <img src="assets/images/f15.png" alt="F15" >
+                    </div>
+                    </a>
+                    <div class="desc">Flying Pictures</div>
+                </div>
+            </div>
+
+            <div class="column">
+                <div class="content">
+                    <a target="_blank" href="assets/images/tree.png">
+                    <div class="fill">
+                        <img src="assets/images/tree.png" alt="Tree">
+                    </div>
+                    </a>
+                    <div class="desc">Agriculture</div>
+                </div>
+            </div>
+
+            <div class="column">
+                <div class="content">
+                    <a target="_blank" href="assets/images/maps.png">
+                    <div class="fill">
+                        <img src="assets/images/maps.png" alt="maps">
+                    </div>
+                    </a>
+                    <div class="desc">Maps and GIS</div>
+                </div>
+            </div>
+    </section>
+<!-- fixed footer (move to separate footer file)-->
     <footer>
-        <p id="footer">Copyright</p>
+        <br>
+        <br>
+        Copyright &#169
     </footer>
-
 </body>
-
 </html>
-

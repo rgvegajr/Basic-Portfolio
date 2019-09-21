@@ -7,8 +7,8 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <title></title>
 </head>
-
 <body>
+<!-- Header/fixed nav bar (move to separate header file)-->
     <header>
         <nav>
             <ul>
@@ -19,30 +19,32 @@
             </ul>
         </nav>
     </header>
-
+<!-- main content section for contact page  -->
     <section class="sectionTop">
         <h2>Contact</h2>
+        <hr>
     </section>
     <section id="contact">
         <div>
             <form action="" method="">
                  Name<br>
-                 <input type="text" size="125%" name="name" placeholder=" John Smith">
+                 <input type="text" size="150%" name="name" placeholder=" John Smith">
                  <br>                
                  Email<br>
-                 <input type="email" size="125%" name="email" placeholder=" example@gmail.com">
+                 <input type="email" size="150%" name="email" placeholder=" example@gmail.com">
+                 <br>
                  Message<br>
-                <textarea rows="8" cols="126" name="message"></textarea>            
-                 <input id="button" type="submit" value="Submit">
+                <textarea id="message" name="message"></textarea>
+                <br>
+                <input id="button" type="submit" value="Submit">
             </form>
         </div>
     </section>
-
+<!-- fixed footer (move to separate footer file) -->
     <footer>
-        <p id="footer">Copyright</p>
-    </footer>
-
-
+        <br>
+        <br>
+        Copyright &#169
+    </footer>     
 </body>
-
 </html>
